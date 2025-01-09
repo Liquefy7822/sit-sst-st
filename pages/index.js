@@ -73,13 +73,13 @@ const Home = () => {
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
       <h1 style={{ textAlign: 'center', color: '#333' }}>Sensor Data Dashboard</h1>
-      <div style={{ display: 'flex', justifyContent: 'space-around', gap: '20px', marginTop: '30px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', gap: '10px', marginTop: '30px' }}>
         <div
           style={{
             backgroundColor: '#f0f8ff',
             borderRadius: '8px',
             padding: '20px',
-            width: '250px',
+            width: '230px', // Adjusted width to bring boxes closer
             boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)',
           }}
         >
@@ -108,7 +108,7 @@ const Home = () => {
             backgroundColor: '#fffacd',
             borderRadius: '8px',
             padding: '20px',
-            width: '250px',
+            width: '230px', // Adjusted width to bring boxes closer
             boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)',
           }}
         >
