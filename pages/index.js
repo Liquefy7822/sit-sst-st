@@ -73,7 +73,7 @@ const Home = () => {
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
       <h1 style={{ textAlign: 'center', color: '#333' }}>Sensor Data Dashboard</h1>
-      <div style={{ display: 'flex', justifyContent: 'space-between', gap: '10px', marginTop: '30px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', gap: '2px', marginTop: '30px' }}>
         <div
           style={{
             backgroundColor: '#f0f8ff',
